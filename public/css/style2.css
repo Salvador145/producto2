@@ -1,0 +1,66 @@
+.catalogo {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titlet{
+    width: 100%;
+    height: 90px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .catalogo h2 {
+    margin-top: 0;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .producto {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px; /* Ancho de la tarjeta */
+  }
+  
+  .producto img {
+    width: 100%;
+    height: 150px; /* Alto de la imagen */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .producto h3 {
+    margin-top: 0;
+  }
+  
+  .producto-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .producto-info span {
+    font-weight: bold;
+  }
+  
+  .precio {
+    font-size: 18px;
+    color: #337ab7;
+  }
